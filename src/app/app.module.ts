@@ -8,13 +8,15 @@ import { RandomImagesComponent } from './random-images/random-images.component';
 import { HttpGeneratorComponent } from './http-generator/http-generator.component';
 import { FormsModule } from '@angular/forms';
 import { CatsFullScreenComponent } from './cats-full-screen/cats-full-screen.component';
+import { BackButtonComponent } from './back-button/back-button.component';
 @NgModule({
   declarations: [
     AppComponent,
     MainMenuComponent,
     RandomImagesComponent,
     HttpGeneratorComponent,
-    CatsFullScreenComponent
+    CatsFullScreenComponent,
+    BackButtonComponent
   ],
   imports: [
     BrowserModule,
