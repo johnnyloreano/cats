@@ -1,0 +1,24 @@
+<div class="d-flex align-items-center flex-column">
+    <h2>
+        AWESOMEST CATZ GENERATOR!!!!11
+    </h2>
+    <img class="img-fluid w-75 mw-75 my-2" src={{randomimage}} />
+    <button class="btn bg-dark text-white" (click)="generateImg()">
+        Generate another FUNNYZ IMAGE LOL (☞ﾟヮﾟ)☞
+    </button>
+    <button class="btn bg-dark text-white" (click)="saveImage()">
+        OWN SAVE THAT ฅ^•ﻌ•^ฅ
+    </button>
+    <button class="btn bg-dark text-white" [routerLink]="['/fullCats']">
+        i am depressed & wanna kill myself
+    </button>
+    <button [disabled]="!imagesUrl.length" class="btn bg-dark text-white" (click)="deleteImage()">
+        i hated the last one. remove it. &#9760;
+    </button>
+</div>
+<div *ngIf="imagesUrl.length != 0">
+    <h1 class="text-center">THE CUTTEST IMAGES EVA</h1>
+</div>
+<div class="d-flex w-100 align-items-center justify-content-center flex-wrap">
+    <img *ngFor="let image of imagesUrl" src={{image}} class="w-25 mb-2 ml-5" />
+</div>

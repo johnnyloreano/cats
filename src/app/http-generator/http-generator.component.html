@@ -1,0 +1,8 @@
+<div class="d-flex align-items-center flex-column">
+    <img src={{httpImage}} class="img-fluid w-75 mw-75 my-2"/>
+    <label> Type the HTTP code:</label>
+    <input class="w-25" [(ngModel)]="httpCode" />
+    <button [disabled]="!httpCode" (click)="generateFunnyImage()" class="btn bg-dark text-white">
+        GENERATE FUNNY IMAGE
+    </button>
+</div>
