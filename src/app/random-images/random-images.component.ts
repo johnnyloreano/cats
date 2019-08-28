@@ -7,10 +7,10 @@ import { HttpService } from '../http.service';
 })
 export class RandomImagesComponent implements OnInit {
 
-  private randomimage = "../../assets/FUNNYCAT.jpg";
+   randomimage = "../../assets/FUNNYCAT.jpg";
 
   constructor(private serviceImage: HttpService) { }
-  private imagesUrl = [];
+   imagesUrl = [];
   ngOnInit() {
   }
 

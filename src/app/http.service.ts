@@ -6,10 +6,10 @@ import { HttpClient } from '@angular/common/http';
 })
 export class HttpService {
 
-  private imagesEndPoint = "https://aws.random.cat/meow";
-  private httpEndPoint = "https://http.cat/";
+   imagesEndPoint = "https://aws.random.cat/meow";
+   httpEndPoint = "https://http.cat/";
 
-  private catEndPoint = "http://aws.random.cat/meow";
+   catEndPoint = "http://aws.random.cat/meow";
   constructor(private http: HttpClient) { }
   getImage() {
     return this.http.get(this.imagesEndPoint);

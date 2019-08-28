@@ -7,7 +7,7 @@ import { HttpService } from '../http.service';
   styleUrls: ['./cats-full-screen.component.css']
 })
 export class CatsFullScreenComponent implements OnInit {
-  private groupCat = [];
+   groupCat = [];
   constructor(private http: HttpService) { }
 
   ngOnInit() {

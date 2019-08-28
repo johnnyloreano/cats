@@ -6,8 +6,8 @@ import { HttpService } from '../http.service';
   styleUrls: ['./http-generator.component.css']
 })
 export class HttpGeneratorComponent implements OnInit {
-  private httpCode;
-  private httpImage = "../../assets/FUNNYCAT2.jpg";
+   httpCode;
+   httpImage = "../../assets/FUNNYCAT2.jpg";
   constructor(private http: HttpService) { }
 
   ngOnInit() {
