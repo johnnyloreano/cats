@@ -13,7 +13,7 @@
     opacity:0.9;
     cursor: pointer;
 }
-.img1{background-image: url("/FUNNYCAT.jpg")}
-.img2{background-image: url("/FUNNYCAT2.jpg")}
-.img2:hover{background-image: url("/djcat.gif")}
-.img1:hover{background-image: url("/pianocat.gif")}
+.img1{background-image: url("/assets/FUNNYCAT.jpg")}
+.img2{background-image: url("/assets/FUNNYCAT2.jpg")}
+.img2:hover{background-image: url("/assets/djcat.gif")}
+.img1:hover{background-image: url("/assets/pianocat.gif")}
